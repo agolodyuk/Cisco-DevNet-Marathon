@@ -1,0 +1,43 @@
+devices:
+  sw1:
+    connections:
+      cli:
+        ip: 10.1.1.1
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: ios
+    platform: iol
+    type: switch
+  sw2:
+    connections:
+      cli:
+        ip: 10.1.1.2
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: iosxe
+    platform: c4500
+    type: switch
+  r1:
+    connections:
+      cli:
+        ip: 10.1.1.3
+        protocol: ssh
+    credentials:
+      default:
+        password: cisco
+        username: admin
+      enable:
+        password: cisco
+    os: ios
+    platform: iol
+    type: router
