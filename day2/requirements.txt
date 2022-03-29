@@ -21,7 +21,7 @@ netmiko==3.1.0
 nornir==2.4.0
 ntc-templates==1.4.1
 nxapi-plumbing==0.5.2
-paramiko==2.7.1
+paramiko==2.10.1
 passlib==1.7.2
 pkg-resources==0.0.0
 pycparser==2.20
